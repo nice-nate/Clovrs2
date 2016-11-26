@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenu" />
-        <activity android:name=".Registration"></activity>
+        <activity android:name=".Registration" />
+        <activity android:name=".ManageWorkspaces"></activity>
     </application>
 
 </manifest>
