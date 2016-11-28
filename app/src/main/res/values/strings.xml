@@ -31,6 +31,43 @@
     <string name="archived_actions">Archived Actions</string>
     <string name="meeting_details">Meeting Details</string>
     <string name="workspace_map">Workspace Map</string>
+    <string name="avatar_settings">Avatar Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="about_clovrs">About Clovrs</string>
+    <string-array name="face">
+        <item>Face</item>
+        <item>Face 1</item>
+        <item>Face 2</item>
+        <item>Face 3</item>
+        <item>Face 4</item>
+    </string-array>
+    <string-array name="model">
+        <item>Model</item>
+        <item>Model 1</item>
+        <item>Model 2</item>
+        <item>Model 3</item>
+        <item>Model 4</item>
+    </string-array>
+    <string-array name="outfit">
+        <item>Outfit</item>
+        <item>Outfit 1</item>
+        <item>Outfit 2</item>
+        <item>Outfit 3</item>
+        <item>Outfit 4</item>
+    </string-array>
+    <string-array name="color">
+        <item>Color</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Purple</item>
+    </string-array>
+    <string-array name="directory">
+        <item>Root</item>
+        <item>Child</item>
+    </string-array>
     <string-array name="gender_array">
         <item>Gender</item>
         <item>Male</item>

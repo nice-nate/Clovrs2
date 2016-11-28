@@ -31,5 +31,25 @@ public class MainMenu extends AppCompatActivity {
             Intent intent = new Intent(this, UpcomingMeeting.class);
             startActivity(intent);
         }
+
+        public void startSettings(View view){
+            Intent intent = new Intent(this, Settings.class);
+            startActivity(intent);
+        }
+
+        public void startUpload(View view){
+            Intent intent = new Intent(this, Upload.class);
+            startActivity(intent);
+        }
+
+        public void startContacts(View view){
+            Intent intent = new Intent(this, Contacts.class);
+            startActivity(intent);
+        }
+
+        public void startCreateMeeting(View view){
+            Intent intent = new Intent(this, CreateMeetingInivte.class);
+            startActivity(intent);
+        }
     }
 

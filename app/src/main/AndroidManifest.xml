@@ -28,7 +28,16 @@
         <activity android:name=".MeetingArchive" />
         <activity android:name=".Reset" />
         <activity android:name=".UpcomingMeeting" />
-        <activity android:name=".EditWorkspace"></activity>
+        <activity android:name=".EditWorkspace" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Upload" />
+        <activity android:name=".Contacts" />
+        <activity android:name=".CreateMeetingInivte" />
+        <activity android:name=".CustomizeAvatar" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".About" />
+        <activity android:name=".Privacy" />
+        <activity android:name=".UpdateInformation"></activity>
     </application>
 
 </manifest>

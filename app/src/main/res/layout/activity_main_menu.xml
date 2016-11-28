@@ -28,7 +28,8 @@
         android:enabled="true"
         android:onClick="startAcceptInvite"
         android:padding="15dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
 
     <Button
         style="?android:attr/borderlessButtonStyle"
@@ -38,9 +39,11 @@
         android:drawableTop="@drawable/add_meeting"
         android:id="@+id/create_meeting"
         android:layout_gravity="center_horizontal"
-        android:enabled="false"
+        android:enabled="true"
         android:padding="15dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:onClick="startCreateMeeting"
+        android:textColor="#ffffff" />
 
     <Button
         style="?android:attr/borderlessButtonStyle"
@@ -49,10 +52,12 @@
         android:text="@string/upload_media"
         android:drawableTop="@drawable/upload"
         android:id="@+id/upload_media"
-        android:enabled="false"
+        android:enabled="true"
         android:layout_gravity="center_horizontal"
         android:padding="15dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:onClick="startUpload"
+        android:textColor="#ffffff" />
 
     <Button
         style="?android:attr/borderlessButtonStyle"
@@ -62,9 +67,11 @@
         android:drawableTop="@drawable/contact"
         android:id="@+id/contacts"
         android:layout_gravity="center_horizontal"
-        android:enabled="false"
+        android:enabled="true"
         android:padding="15dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:onClick="startContacts"
+        android:textColor="#ffffff" />
 
     <Button
         style="?android:attr/borderlessButtonStyle"
@@ -77,7 +84,8 @@
         android:layout_gravity="center_horizontal"
         android:enabled="true"
         android:padding="15dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
 
     <Button
         style="?android:attr/borderlessButtonStyle"
@@ -87,8 +95,10 @@
         android:drawableTop="@drawable/settings"
         android:id="@+id/settings"
         android:layout_gravity="center_horizontal"
-        android:enabled="false"
+        android:enabled="true"
         android:padding="15dp"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:onClick="startSettings"
+        android:textColor="#ffffff" />
 </LinearLayout>
 </ScrollView>
