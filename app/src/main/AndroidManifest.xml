@@ -9,6 +9,7 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -22,7 +23,12 @@
         </activity>
         <activity android:name=".MainMenu" />
         <activity android:name=".Registration" />
-        <activity android:name=".ManageWorkspaces"></activity>
+        <activity android:name=".ManageWorkspaces" />
+        <activity android:name=".CMUI" />
+        <activity android:name=".MeetingArchive" />
+        <activity android:name=".Reset" />
+        <activity android:name=".UpcomingMeeting" />
+        <activity android:name=".EditWorkspace"></activity>
     </application>
 
 </manifest>

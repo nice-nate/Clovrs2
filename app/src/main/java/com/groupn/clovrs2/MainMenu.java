@@ -1,7 +1,6 @@
 package com.groupn.clovrs2;
 
 import android.content.Intent;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,6 +25,11 @@ public class MainMenu extends AppCompatActivity {
         public void startManageWorkspace(View view){
         Intent intent = new Intent(this, ManageWorkspaces.class);
         startActivity(intent);
+        }
+
+        public void startAcceptInvite(View view){
+            Intent intent = new Intent(this, UpcomingMeeting.class);
+            startActivity(intent);
         }
     }
 

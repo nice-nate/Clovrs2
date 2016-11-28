@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Registration.class);
         startActivity(intent);
     }
+
+    public void startReset(View view) {
+        Intent intent = new Intent(this, Reset.class);
+        startActivity(intent);
+    }
 }

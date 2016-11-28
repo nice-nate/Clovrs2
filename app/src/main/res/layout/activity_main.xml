@@ -4,13 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/clovrs"
+        android:id="@+id/app_title"
+        android:layout_gravity="center_horizontal"
+        android:padding="25dp"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
     <EditText
         android:id="@+id/edit_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/edit_message"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
 
     <EditText
         android:id="@+id/password"
@@ -34,5 +50,14 @@
         android:id="@+id/button"
         android:onClick="startRegistration"
         android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_message"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/forgot_email_or_password"
+        android:onClick="startReset" />
 
 </LinearLayout>
